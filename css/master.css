@@ -7,4 +7,79 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    /* background-color: darkturquoise; */
+    background-image: url('../img/pacman.png');
+    background-position: center;
+    height: 110vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: rgb(31, 85, 85);
+    font-family: 'Changa', sans-serif;
+    line-height: 22px;
+    background-attachment: fixed;
+    background-color: #0a0a0a;
+}
+
+
+/* Sezione dell' Header */
+
+.header {
+    width: 100%;
+    border-bottom: 5px dotted yellow;
+    margin-bottom: 50px;
+}
+
+#title {
+    font-size: 4em;
+    text-align: center;
+    text-shadow: 13px 9px 10px rgb(48, 59, 38);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(87, 199, 87);
+}
+
+#presentazione {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.info {
+    width: 40%;
+    align-self: center;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#presentazione .arrow {
+    font-size: 3.5em;
+    position: absolute;
+    bottom: 15%;
+    left: 36.9%;
+    color: whitesmoke;
+}
+
+.info h2 {
+    text-shadow: 1.8px 0px 3px white;
+    font-size: 2em;
+    text-align: center;
+    color: rgb(87, 199, 87);
+}
+
+.info p {
+    margin-top: 13px;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(62, 78, 61);
+}
+
+#presentazione img {
+    width: 14%;
+    height: 20%;
+    border-radius: 20%;
+    border: 7px solid white;
+    margin-right: 46.5px;
 }
