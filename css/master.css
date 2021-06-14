@@ -17,31 +17,36 @@ body {
     font-family: 'Changa', sans-serif;
     line-height: 22px;
     background-attachment: fixed;
-    background-color: #0a0a0a;
+    background-color: black;
 }
 
 
-/* Sezione dell' Header */
+/* Sezione dell' HEADER */
+
+header {
+    margin-bottom: 150px;
+}
 
 .header {
     width: 100%;
-    border-bottom: 5px dotted yellow;
-    margin-bottom: 50px;
+    border-bottom: 7px dotted yellow;
+    margin-bottom: 80px;
 }
 
 #title {
     font-size: 4em;
     text-align: center;
-    text-shadow: 13px 9px 10px rgb(48, 59, 38);
+    text-shadow: 13px 9px 10px rgb(64, 65, 45);
     margin-top: 30px;
     margin-bottom: 30px;
-    color: rgb(87, 199, 87);
+    color: #544aa4;
 }
 
 #presentazione {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 110px;
     position: relative;
 }
 
@@ -65,7 +70,7 @@ body {
     text-shadow: 1.8px 0px 3px white;
     font-size: 2em;
     text-align: center;
-    color: rgb(87, 199, 87);
+    color: rgb(228, 228, 48);
 }
 
 .info p {
@@ -83,3 +88,160 @@ body {
     border: 7px solid white;
     margin-right: 46.5px;
 }
+
+
+/* Fine della sezione dell' HEADER */
+
+
+/* Sezione del MAIN */
+
+#main_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.my_container {
+    width: 80%;
+    height: 50vh;
+}
+
+.main_titles {
+    color: #e4e430;
+    width: fit-content;
+    height: fit-content;
+    padding: 25px;
+    background-color: #544aa46e;
+    border-radius: 20px;
+    margin-left: 135px;
+}
+
+.projects_title {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.main_titles p {
+    font-size: 1.15em;
+}
+
+
+/* parte dello slider */
+
+.container {
+    height: 100vh;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.images_container {
+    margin: auto;
+    height: 78%;
+    width: 78%;
+    margin-top: 35px;
+    box-shadow: 13px 10px 50px 10px rgba(128, 128, 128, 0.39);
+    border-radius: 30px;
+}
+
+.wrapper img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    border-left: 10px solid #544aa4;
+    border-right: 10px solid yellow;
+}
+
+.active {
+    display: inline-block;
+    color: yellow;
+}
+
+.slider i:hover {
+    font-size: 2em;
+}
+
+.slide_prev i,
+.slide_next i {
+    font-size: 3.7em;
+    color: yellow;
+}
+
+.slide_prev i:hover,
+.slide_next i:hover {
+    font-size: 4.7em;
+}
+
+.slide_prev,
+.slide_next {
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.slide_prev {
+    right: 90%;
+}
+
+.slide_next {
+    left: 90%;
+}
+
+.slide_prev:hover,
+.slide_next:hover {
+    bottom: 48%;
+}
+
+.slider {
+    background-color: #544aa4;
+    position: absolute;
+    display: flex;
+    height: 10%;
+    bottom: 3.5%;
+    width: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 100px;
+    color: rgb(77, 77, 77);
+}
+
+.slider i {
+    cursor: pointer;
+    font-size: 1.3em;
+}
+
+.arright {
+    color: #544aa4!important;
+}
+
+.links {
+    width: 55%;
+}
+
+.links p a {
+    color: white;
+    font-style: italic;
+}
+
+.links p .first_link {
+    margin-left: 20px;
+}
+
+.english_link,
+.italian_link {
+    display: flex;
+}
+
+.margin_link {
+    margin-bottom: 10px;
+}
+
+
+/* fine parte dello slider */

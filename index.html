@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <title>My Portfolio</title>
 </head>
 
@@ -34,7 +35,34 @@
 
     <!-- Sezione Main -->
     <main>
-
+        <div id="main_container">
+            <div class="my_container">
+                <div class="main_titles">
+                    <h1 class="projects_title">Projects Section</h1>
+                    <div class="links">
+                        <p class="margin_link">You can see some parts of my projects on the current page or you can visit the sites by clicking one of these following links:
+                            <a href="https://PascaSeba.github.io/netflix.html">See Netflix</a>
+                            <a href="">See WhatsApp</a>
+                            <a href="">See Spotify</a>
+                            <a href="">See DigitalOcean</a>
+                        </p>
+                        <p>Puoi vedere alcune parti dei miei progetti sulla pagina corrente oppure puoi visitare i siti cliccando su uno dei seguenti link:</p>
+                    </div>
+                </div>
+                <div id="root" class="container">
+                    <div class="wrapper">
+                        <div class="slide_prev"><i class="fas fa-caret-left" @click="prevPhoto"></i></div>
+                        <div class="images_container">
+                            <img :src="photos[counterPhotos]" alt="">
+                        </div>
+                        <div class="slide_next"><i class="fas fa-caret-right arright" @click="nextPhoto"></i></div>
+                        <div class="slider">
+                            <i class="fas fa-circle" @click="clickCircle(index)" class="fas fa-circle" v-for="(circle, index) in photos" :class="(index == counterPhotos) ? 'active' : null"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <!-- Fine sezione Main -->
 
@@ -44,6 +72,8 @@
 
     </footer>
     <!-- Fine sezione Footer -->
+
+    <script src="js/main.js "></script>
 </body>
 
 </html>
