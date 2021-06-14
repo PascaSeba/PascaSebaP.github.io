@@ -260,5 +260,9 @@ header {
     text-align: center;
 }
 
+body {
+    display: none;
+}
+
 
 /* fine parte slider */
