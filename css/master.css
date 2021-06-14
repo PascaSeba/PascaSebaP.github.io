@@ -108,7 +108,7 @@ header {
 
 .main_titles {
     color: #e4e430;
-    width: fit-content;
+    width: 78%;
     height: fit-content;
     padding: 25px;
     background-color: #544aa46e;
@@ -222,25 +222,42 @@ header {
 }
 
 .links {
-    width: 55%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.3em;
 }
 
-.links p a {
+.links a {
     color: white;
     font-style: italic;
 }
 
-.links p .first_link {
-    margin-left: 20px;
-}
-
-.english_link,
-.italian_link {
-    display: flex;
-}
-
-.margin_link {
+.links {
+    margin-top: 10px;
     margin-bottom: 10px;
+    border: 2px solid rgb(185, 185, 226);
+    padding: 10px;
+}
+
+.links .end_symbol {
+    margin-right: 20px;
+}
+
+.links span:first-child {
+    margin-left: 10px;
+}
+
+.links span {
+    color: yellow;
+    vertical-align: middle;
+}
+
+.links a:hover {
+    color: red;
+}
+
+.main_titles {
+    text-align: center;
 }
 
 
