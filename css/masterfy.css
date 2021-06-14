@@ -126,7 +126,7 @@ body {
 .leftmain_padd {
     padding: 10px 0;
     display: inline-block;
-    font-size: 1.222em;
+    font-size: 1em;
     font-weight: 900;
     color: grey;
 }
@@ -302,6 +302,7 @@ body {
     padding-right: 25px;
     padding-top: 80px;
     padding-bottom: 100px;
+    background-color: #141922;
 }
 
 .list_body {
@@ -352,6 +353,7 @@ body {
 
 .music_wrapper {
     width: 100%;
+    background-color: #141922;
 }
 
 .image {
