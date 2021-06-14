@@ -25,12 +25,30 @@ body {
 
 header {
     margin-bottom: 150px;
+    position: relative;
 }
 
 .header {
     width: 100%;
     border-bottom: 7px dotted yellow;
     margin-bottom: 80px;
+}
+
+.pacman {
+    position: absolute;
+    width: 5%;
+    right: 13%;
+    top: 1.8%;
+    z-index: 1;
+}
+
+.hide_points {
+    position: absolute;
+    right: 0;
+    top: 7%;
+    background-color: black;
+    width: 199px;
+    height: 7vh;
 }
 
 #title {
@@ -111,7 +129,7 @@ header {
     width: 78%;
     height: fit-content;
     padding: 25px;
-    background-color: #544aa46e;
+    background-color: #544aa4b2;
     border-radius: 20px;
     margin-left: 135px;
 }
