@@ -303,6 +303,7 @@ body {
     padding-top: 80px;
     padding-bottom: 100px;
     background-color: #141922;
+    width: 100%;
 }
 
 .list_body {
@@ -387,6 +388,7 @@ body {
     width: 100%;
     color: white;
     padding-top: 20px;
+    background-color: #141922;
 }
 
 .image_create,
