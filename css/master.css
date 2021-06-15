@@ -14,10 +14,10 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     color: rgb(31, 85, 85);
-    font-family: 'Changa', sans-serif;
     line-height: 22px;
     background-attachment: fixed;
     background-color: black;
+    font-family: 'Press Start 2P', cursive;
 }
 
 
@@ -31,14 +31,13 @@ header {
 .header {
     width: 100%;
     border-bottom: 7px dotted yellow;
-    margin-bottom: 80px;
 }
 
 .pacman {
     position: absolute;
     width: 5%;
     right: 13%;
-    top: 1.8%;
+    top: 0.5%;
     z-index: 1;
 }
 
@@ -52,12 +51,35 @@ header {
 }
 
 #title {
-    font-size: 4em;
+    font-size: 2.5em;
     text-align: center;
     text-shadow: 13px 9px 10px rgb(64, 65, 45);
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     color: #544aa4;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+nav ul li {
+    list-style-type: none;
+    font-size: 1.1em;
+    background-color: rgba(255, 0, 0, 0.411);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav ul li a {
+    color: #e4e430;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
 }
 
 #presentazione {
@@ -86,16 +108,17 @@ header {
 
 .info h2 {
     text-shadow: 1.8px 0px 3px white;
-    font-size: 2em;
+    font-size: 1.4em;
     text-align: center;
     color: rgb(228, 228, 48);
 }
 
 .info p {
     margin-top: 13px;
-    font-size: 1.2em;
+    font-size: 0.8em;
     text-align: center;
     font-weight: 500;
+    line-height: 18px;
     color: rgb(62, 78, 61);
 }
 
@@ -137,12 +160,13 @@ header {
 }
 
 .projects_title {
-    font-size: 3em;
+    font-size: 2.1em;
     margin-bottom: 20px;
 }
 
 .main_titles p {
-    font-size: 1.15em;
+    font-size: 1em;
+    color: white;
 }
 
 
@@ -253,8 +277,11 @@ header {
 }
 
 .links a {
-    color: white;
+    color: #e4e430;
     font-style: italic;
+    font-size: 1.15em;
+    font-family: 'Changa', sans-serif;
+    margin-right: 15px;
 }
 
 .links {
@@ -262,19 +289,6 @@ header {
     margin-bottom: 10px;
     border: 2px solid rgb(185, 185, 226);
     padding: 10px;
-}
-
-.links .end_symbol {
-    margin-right: 20px;
-}
-
-.links span:first-child {
-    margin-left: 10px;
-}
-
-.links span {
-    color: yellow;
-    vertical-align: middle;
 }
 
 .links a:hover {
