@@ -17,22 +17,24 @@
 
 <body>
     <!-- Sezione Header -->
-    <header>
-        <img class="pacman" src="img/pacman-character.png" alt="">
+    <header id="intro">
+        <img class="pacman" src="img/pacman-defined.png" alt="">
+        <img class="pacman header_ghost" src="img/fantasmino_rosso.png" alt="">
         <div class="hide_points"></div>
+        <div class="hide_points second_point"></div>
         <div class="header">
             <h1 id="title">IL PORTFOLIO</h1>
         </div>
         <nav>
             <ul>
                 <li>
-                    <a href="">ABOUT ME</a>
+                    <a href="#intro">ABOUT ME</a>
                 </li>
                 <li style="margin-left: 40px; margin-right: 40px">
-                    <a href="">MY PROJECTS</a>
+                    <a href="#projects">MY PROJECTS</a>
                 </li>
                 <li>
-                    <a href="">CONTACTS</a>
+                    <a href="#contacts">CONTACTS</a>
                 </li>
             </ul>
         </nav>
@@ -50,11 +52,12 @@
 
 
     <!-- Sezione Main -->
-    <main>
+    <main id="projects">
+        <img class="projects_ghost" src="img/fantasmino_giallo.png" alt="">
         <div id="main_container">
             <div class="my_container">
                 <div class="main_titles">
-                    <h1 class="projects_title">Projects Section</h1>
+                    <h1 class="projects_title">PROJECTS SECTION</h1>
                     <div class="links_container">
                         <p class="margin_link">You can see some photos of my projects on the current page or you can visit them by clicking one of these following links:</p>
                         <div class="links">
@@ -67,6 +70,7 @@
                     </div>
                 </div>
                 <div id="root" class="container">
+                    <img class="slider_ghost" src="img/fantasmino_storto_esterrefatto.png" alt="">
                     <div class="wrapper">
                         <div class="slide_prev"><i class="fas fa-caret-left" @click="prevPhoto"></i></div>
                         <div class="images_container">
@@ -85,8 +89,14 @@
 
 
     <!-- Sezione Footer -->
-    <footer>
-
+    <footer id="contacts">
+        <h1>CONTACTS &#x26; INFOS</h1>
+        <div class="contacts">
+            <p><i class="fas fa-home"></i>Based in Verona, Veneto, Italy</p>
+            <p><i class="fas fa-envelope"></i>sebastiano.pasca@libero.it</p>
+            <p><i class="fab fa-linkedin"></i>Sebastiano Pasca</p>
+            <p><i class="fab fa-github"></i>PascaSeba</p>
+        </div>
     </footer>
     <!-- Fine sezione Footer -->
 
