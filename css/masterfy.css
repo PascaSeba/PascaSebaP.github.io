@@ -408,6 +408,11 @@ body {
     border-radius: 50%;
 }
 
+.einaudi {
+    width: 94%;
+    margin-top: 1px;
+}
+
 .overlay {
     position: absolute;
     top: 0;

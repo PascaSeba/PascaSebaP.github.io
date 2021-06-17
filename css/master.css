@@ -50,7 +50,7 @@ header {
 
 .hide_points {
     position: absolute;
-    right: 0;
+    right: 0.5%;
     top: 7%;
     width: 199px;
     height: 7vh;
@@ -169,10 +169,10 @@ nav ul li:hover a {
 
 .projects_ghost {
     position: absolute;
-    width: 3.5%;
-    left: 28%;
+    width: 5%;
+    left: 27%;
     z-index: 2;
-    top: 82%;
+    top: 78%;
 }
 
 .my_container {
